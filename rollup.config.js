@@ -26,14 +26,8 @@ export default {
     },
   ],
   plugins: [
-    postcss({
-      plugins: [],
-      minimize: true,
-      sourceMap: 'inline',
-    }),
-    external({
-      includeDependencies: true,
-    }),
+    postcss(),
+    external(),
     typescript({
       typescript: require('typescript'),
       include: ['*.js+(|x)', '**/*.js+(|x)'],

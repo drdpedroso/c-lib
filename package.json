@@ -6,9 +6,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:KaiHotz/react-rollup-boilerplate.git"
+    "url": "git@github.com:drdpedroso/c-lib.git"
   },
-  "homepage": "https://github.com/KaiHotz/react-rollup-boilerplate",
+  "homepage": "https://github.com/drdpedroso/c-lib",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -41,8 +41,8 @@
     "deploy": "gh-pages -d styleguide"
   },
   "peerDependencies": {
-    "react": "^17.x",
-    "react-dom": "^17.x"
+    "react": "^16.0.1",
+    "react-dom": "^16.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -102,10 +102,8 @@
     "prettier": "^2.2.1",
     "process": "^0.11.10",
     "prop-types": "^15.7.2",
-    "react": "^17.0.1",
     "react-app-polyfill": "^2.0.0",
     "react-docgen-typescript": "^1.21.0",
-    "react-dom": "^17.0.1",
     "react-styleguidist": "^11.1.5",
     "react-test-renderer": "^17.0.1",
     "rimraf": "^3.0.2",
@@ -197,5 +195,12 @@
       "@babel/plugin-proposal-class-properties",
       "transform-react-remove-prop-types"
     ]
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "postcss": "^8.2.7",
+    "react-bootstrap": "^1.5.1",
+    "react-rollup-boilerplate": "git+https://github.com/drdpedroso/c-lib.git",
+    "react-router-dom": "^5.2.0"
   }
 }
